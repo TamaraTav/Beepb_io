@@ -17,7 +17,7 @@ body {
     font-size: 16px;
     color: #A1A4AC;
     font-weight: 400;
-    background-color:black;
+    background-color:#fff;
 }
 
 .container {
@@ -36,8 +36,6 @@ body {
 
     padding: 60px 0;
     z-index: 9999;
-
-    transition: all 1s;
 }
 .header.fixed {
     padding: 20px 0;
@@ -187,3 +185,142 @@ body {
     background: transparent;
     color: #14B45C;
 }
+
+/****************INTRO***************/
+
+.intro{
+    positin: relative;
+
+    padding: 190px 0 140px;
+}
+
+.intro__bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.intro__bg-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.intro__inner{
+    display: flex;
+
+    z-index: 2;
+}
+
+.intro__content{
+    max-width: 495px;
+    margin: 232px 0 0 57px;
+}
+
+.intro__content-title {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.intro-content-text {
+    margin: 30px 0 40px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A1A4AC;
+}
+
+.intro__content-links {
+    display: flex;
+    align-items: center;
+}
+
+.intro__content-links-download {
+    padding: 14px 31px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    background: #14B45C;
+    border: 1px solid #14B45C;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    transition: all .3s;
+}
+
+.intro__content-links-download:hover {
+    color: #14B45C;
+    background: transparent;
+}
+
+.intro__content-links-watch {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.intro__content-links-watch img {
+    margin-right: 10px;
+
+    transition: all .3s;
+}
+
+.intro__content-links-watch:hover img {
+    transform: translateY(-10px);
+}
+
+
+/****************EVERNEED***************/
+
+.everneed{
+    padding: 30px 0 165px;
+}
+
+.everneed__title {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #1C1F28;
+}
+
+.everneed__items {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.everneed__item {
+    max-width: 320px;
+    text-align: center;
+}
+
+.everneed__item-title {
+    margin: 43px 0 24px;
+
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1C1F28;
+}
+
+.everneed__item-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #A1A4AC;
+}
+
+
