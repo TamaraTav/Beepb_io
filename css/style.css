@@ -528,6 +528,30 @@ body {
     color: #A1A4AC;
 }
 
+.business__link {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.business__link-item {
+    padding: 16px 58px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1F28;
+    text-decoration: none;
+
+    border: 1px solid #1C1F28;
+    border-radius: 16px;
+
+    transition: all .3s;
+}
+
+.business__link-item:hover {
+    background: #1C1F28;
+    color: #fff
+}
 
 
 
