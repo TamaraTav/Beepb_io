@@ -968,3 +968,44 @@ body {
         justify-content: space-around;
     }
 }
+
+@media(max-width: 1000px) {
+    .header__burger{
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+
+        bottom: 0;
+        left: -110%;
+        background: #1E202A;
+        transition: all .5s;
+    }
+    .menu.active {
+        left: 0;
+    }
+
+    .menu__list {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__list-item {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .menu__list-item:hover .menu-dropdown {
+        position: initial;
+    }
+    .header__button {
+        margin: 0;
+    }
+
+
+}
