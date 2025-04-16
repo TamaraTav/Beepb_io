@@ -12,6 +12,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
     }
 
+
+    /************** burger menu  */
+    let headerBurger = document.querySelector('.header__burger')
+    let menu = document.querySelector('.menu');
+    let body = document.querySelector('body');
+    headerBurger.onclick = function() {
+        headerBurger.classList.toggle('active');
+        menu.classList.toggle('active');
+        body.classList.toggle('no-scroll');
+    }
+
+
+    /************** review slider  */
     $('.reviews__slider').slick({
         infinite: true,
         slidesToShow: 1,
