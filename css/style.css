@@ -483,7 +483,6 @@ body {
 
 .features__link-item {
     padding: 16px 45px;
-
     font-weight: 600;
     font-size: 16px;
     line-height: 15px;
@@ -911,6 +910,7 @@ body {
     .reviews__slider .slick-prev {
         left: 0;
     }
+
 }
 
 
@@ -949,6 +949,7 @@ body {
     .reviews {
         padding: 100px 0 240px;
     }
+
     .reviews__slider .slick-arrow {
         width: 70px;
         height: 70px;
@@ -969,10 +970,12 @@ body {
     }
 }
 
+
 @media(max-width: 1000px) {
-    .header__burger{
+    .header__burger {
         display: block;
     }
+
     .menu {
         position: absolute;
         height: 100vh;
@@ -984,6 +987,7 @@ body {
         background: #1E202A;
         transition: all .5s;
     }
+
     .menu.active {
         left: 0;
     }
@@ -995,17 +999,98 @@ body {
         justify-content: center;
         align-items: center;
     }
+
     .menu__list-item {
         display: flex;
         flex-direction: column;
         margin: 20px 0;
     }
+
     .menu__list-item:hover .menu-dropdown {
         position: initial;
     }
+
     .header__button {
         margin: 0;
     }
 
+    .intro__img {
+        max-width: 330px;
+    }
 
+    .intro__content {
+        margin: 80px 0 0 50px;
+        padding-right: 20px;
+    }
+
+    .intro__content-title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .intro-content-text {
+        margin: 20px 0 30px;
+    }
+
+    .intro__content-links-download {
+        padding: 12px 25px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .intro__content-links-watch {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .everneed__title,
+    .business__title,
+    .reviews__title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .features__link-item {
+        padding: 12px 25px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .business {
+        padding: 50px 0 50px;
+    }
+
+    .reviews__slide {
+        padding: 0 80px;
+    }
+
+    .reviews__slide-text {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .footer {
+        position: relative;
+        padding: 80px 0 50px;
+    }
+
+    .footer__app {
+        padding: 50px 60px;
+        max-width: 650px;
+    }
+
+    .footer__logo {
+        margin-top: 60px;
+    }
+
+    .footer__nav {
+        margin-top: 60px;
+    }
+
+    .footer__copy {
+        margin-top: 50px;
+    }
 }
+
+
+
