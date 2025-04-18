@@ -903,6 +903,7 @@ body {
 
 
 /******************** Responsive ********************/
+
 @media(max-width: 1680px) {
     .reviews__slider .slick-next {
         right: 0;
@@ -935,6 +936,39 @@ body {
 
     .footer__bg-img {
         height: 100%;
+    }
+}
+
+
+
+@media(max-width: 1500px) {
+    .business {
+        padding: 110px 0 140px;
+    }
+
+    .business__oval {
+        width: 50px;
+    }
+
+    .business__oval img {
+        max-width: 100%;
+    }
+
+    .business__oval--black {
+        bottom: -190px;
+        right: 0;
+    }
+
+    .business__item {
+        max-width: 400px;
+    }
+
+    .business__item-title {
+        padding: 0 30px;
+    }
+
+    .business__item-text {
+        padding: 0 30px 30px;
     }
 }
 
